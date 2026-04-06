@@ -43,6 +43,6 @@ def test_top_n_words_zero_n() -> None:
 # --- load_text (real file test) ---
 
 def test_load_text_wagner_file_exists() -> None:
-    text = load_text("data/wagner.txt")
+    text = load_text("text = load_text")
     assert isinstance(text, str)
     assert len(text) > 0
